@@ -19,8 +19,9 @@
   "routes": [
     {
       "src": "/(.*)",
+      "status": 301,
       "headers": {
-        "x-forwarded-proto": "https"
+        "Location": "https://$HOST$1"
       },
       "methods": [
         "GET",
