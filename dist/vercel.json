@@ -3,6 +3,12 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    },
+    {
+      "source": "/*",
+      "destination": "https://*:splat",
+      "statusCode": 301,
+      "methods": ["GET", "HEAD"]
     }
   ]
 }
