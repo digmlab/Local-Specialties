@@ -4,14 +4,5 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "routes": [
-    {
-      "src": "/*",
-      "status": 301,
-      "headers": {
-        "Location": "https://$HOST$1"
-      }
-    }
   ]
 }
