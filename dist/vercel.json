@@ -7,7 +7,6 @@
     {
       "source": "/*",
       "destination": "https://*:splat",
-      "statusCode": 301,
       "methods": ["GET", "HEAD"]
     }
   ]
